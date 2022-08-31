@@ -43,3 +43,124 @@ a{
     background: linear-gradient(to right, var(--Lime-Green),var(--Bright-Cyan));
     border-radius: 20px;
 }
+
+#hero{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 60px;
+}
+
+#hero div{
+
+    width: 40%;
+}
+
+#hero div h1{
+    font-size: 60px;
+    font-weight: 300;
+    color: var(--Dark-Blue);
+}
+
+#hero div p{
+    margin: 30px 0px;
+    color: var(--Dark-Blue);
+    line-height: 25px;
+}
+
+.phones{
+    width: 30%;
+}
+
+#hero div a{
+    color: white;
+    padding: 7px 16px;
+    background: linear-gradient(to right, var(--Lime-Green),var(--Bright-Cyan));
+    border-radius: 20px;
+}
+
+#write {
+    padding:  60px;
+    background-color: var(--Light-Grayish-Blue);
+
+}
+
+.writeheader {
+ width: 55%;
+ margin-bottom: 30px;
+}
+
+#write div h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--Dark-Blue);
+    padding: 10px 0;    
+}
+
+#write div p{
+    /* margin: 20px 0px; */
+    color: var(--Dark-Blue);
+    line-height: 25px;
+    padding: 10px 0px;
+}   
+
+
+
+#gridarea, .blogdiv {
+display: grid;
+gap: 30px;
+grid-template-columns: repeat(4, 1fr);
+}
+
+
+#gridarea div{
+    /* background-color: red; */
+    padding: 20px;
+}
+
+#gridarea h4{
+    margin: 7px 0 10px;
+}
+  
+#blog {
+    padding: 60px;
+}
+
+#blog h1{
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: var(--Dark-Blue);
+}
+
+.blogcontent {
+    width: 95%;
+    box-shadow: 3px 3px 10px var(--Grayish-Blue);
+    /* background-color: red; */
+}
+
+.blogdiv img {
+    width: 100%;
+}
+
+.blogdiv h4{
+    margin: 10px 0;
+}
+
+.content{
+    margin: 10px;
+}
+
+.content p:first-child{
+    font-size: 12px;
+}
+
+.content p:last-child{
+    font-size: 14px;
+}
+.content h4{
+    font-weight: 600;
+}
+.content h4:hover{
+    color: var(--Lime-Green);
+    cursor: pointer;
+}
