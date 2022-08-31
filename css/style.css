@@ -164,3 +164,23 @@ grid-template-columns: repeat(4, 1fr);
     color: var(--Lime-Green);
     cursor: pointer;
 }
+
+#footer {
+    background-color: var(--Dark-Blue);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;  
+}
+
+.footerlinks{
+    display: flex;
+    gap: 30px;
+}
+
+.footerlinks a{
+    color: var(--Grayish-Blue);
+}
+
+
