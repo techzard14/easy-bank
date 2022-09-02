@@ -121,6 +121,8 @@ grid-template-columns: repeat(4, 1fr);
 #gridarea h4{
     margin: 7px 0 10px;
 }
+
+
   
 #blog {
     padding: 60px;
@@ -134,14 +136,19 @@ grid-template-columns: repeat(4, 1fr);
 
 .blogcontent {
     width: 95%;
+    padding-bottom: 10px;
     box-shadow: 3px 3px 10px var(--Grayish-Blue);
     /* background-color: red; */
 }
+
 
 .blogdiv img {
     width: 100%;
 }
 
+.currencyimage{
+    height: 48%;
+}
 .blogdiv h4{
     margin: 10px 0;
 }
@@ -174,13 +181,49 @@ grid-template-columns: repeat(4, 1fr);
     padding: 10px 60px;  
 }
 
-.footerlinks{
+.footerlinks, .footerlinks2{
     display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
-.footerlinks a{
+.footerlinks a, .footerlinks2 a{
     color: var(--Grayish-Blue);
 }
 
 
+@media screen and (max-width:992px) {
+
+    #hero div h1{
+        font-size: 40px;
+    }
+
+    .blogcontent {
+        padding-bottom: 30px;
+        width: 70%;
+    }
+
+    
+#gridarea, .blogdiv {
+   column-gap: -30px;
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .currencyimage{
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #hero div h1,   #write div h1{
+        font-size: 30px;
+    }
+
+    .phones{
+        width: 40%;
+    }
+    #hero div p, #write div p{
+       font-size: 14px;
+    }
+    
+}
