@@ -12,12 +12,19 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <section id="nav">
       <a href="/"><img src="/images/easybank logo.svg" alt="" /></a>
+      <div class="toggler">
+        <i class="ri-menu-line" onclick="navopen()"></i>
+        <i class="ri-close-fill" onclick="navclose()"></i>
+      </div>
       <div class="navlinks">
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -140,7 +147,17 @@
     </section>
 
     <section id="footer">
-      <a href="/"><img src="/images/easybank logo.svg" alt="" /></a>
+      <div>
+        <a href="/"><img src="/images/easybank logo.svg" alt="" /></a>
+        <div class="icons">
+          <a href=""><i class="ri-facebook-fill"></i></a>
+          <a href=""><i class="ri-youtube-fill"></i></a>
+          <a href=""><i class="ri-twitter-line"></i></a>
+          <a href="https://wa.me/09050975946"
+            ><i class="ri-whatsapp-line"></i
+          ></a>
+        </div>
+      </div>
       <div class="footerlinks">
         <a href="">About</a>
         <a href="">Contact Us</a>
@@ -156,5 +173,6 @@
         <a href="">Request-invite</a>
       </div>
     </section>
+    <script src="/js/main.js"></script>
   </body>
 </html>
