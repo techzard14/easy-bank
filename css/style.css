@@ -236,8 +236,12 @@ grid-template-columns: repeat(4, 1fr);
 @media screen and (max-width:576px) {
     .navlinks{
         position: absolute; 
-        background-color: black;
+        background-color: white;
+        border-radius: 20px;
+        height: 200px;
+        width: 120px;
         width: 50%;
+        box-shadow: 3px 3px 10px var(--Grayish-Blue);
         flex-direction: column;
         text-align: center;
         transform: translate(-50%, -50%);
@@ -284,5 +288,30 @@ grid-template-columns: repeat(4, 1fr);
   
         grid-template-columns: 1fr;
         text-align: center;
+            width: 105%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            place-items: center;
+            
+        }
+
+        .writeheader {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+           }
+           
+        #blog h1{
+            width: 85%;
+            text-align: center;
+            place-items: center;
         }
 }
+
+        
+@media screen and (max-width:576px) {
+     
+}
+
