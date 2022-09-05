@@ -16,6 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -26,10 +27,10 @@
         <i class="ri-close-fill" onclick="navclose()"></i>
       </div>
       <div class="navlinks">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Blogs</a>
-        <a href="/contact.html">Contacts</a>
+        <a href="/">Home</a>
+        <a href="#write">About</a>
+        <a href="#blog">Blogs</a>
+        <a href="#footer">Contacts</a>
       </div>
       <div class="request-invite">
         <a href="">Request-invite</a>
@@ -58,7 +59,7 @@
         </p>
       </div>
       <div id="gridarea">
-        <div>
+        <div data-aos="fade-down" data-aos-delay="100">
           <img src="/images/icon-online.svg" alt="" />
           <h4>Online Banking</h4>
           <p>
@@ -67,7 +68,7 @@
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-down" data-aos-delay="200">
           <img src="/images/icon-budgeting.svg" alt="" />
           <h4>Simple Budgeting</h4>
           <p>
@@ -75,7 +76,7 @@
             your finances wherever you are in the world.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-down" data-aos-delay="300">
           <img src="/images/icon-onboarding.svg" alt="" />
           <h4>Fast Onboarding</h4>
           <p>
@@ -83,7 +84,7 @@
             your finances wherever you are in the world.
           </p>
         </div>
-        <div>
+        <div data-aos="fade-down" data-aos-delay="400">
           <img src="/images/icon-api.svg" alt="" />
           <h4>Open API</h4>
           <p>
@@ -97,7 +98,7 @@
     <section id="blog">
       <h1>Latest Articles</h1>
 
-      <div class="blogdiv">
+      <div class="blogdiv" data-aos="fade-up">
         <div class="blogcontent">
           <img src="/images/image-currency.jpg" alt="" class="currencyimage" />
           <div class="content">
@@ -173,6 +174,7 @@
         <a href="">Request-invite</a>
       </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>
