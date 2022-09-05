@@ -88,6 +88,12 @@ padding: 40px 60px;
     border-radius: 20px;
 }
 
+#hero div a:hover{
+    background: #fff;
+    border: 1px solid var(--Lime-Green);
+    color: var(--Grayish-Blue);
+}
+
 #write {
     padding:  60px;
     background-color: var(--Light-Grayish-Blue);
